@@ -2,5 +2,9 @@
 
 int main()
 {
-    printf("hello\n");
+    int a=20, b=10;
+    a=a+b;
+    b=a-b;
+    a=a-b;
+    printf("%d %d",a,b);
 }
